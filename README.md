@@ -37,3 +37,11 @@ npm run dev
 
 
 App runs on: http://localhost:5173
+
+Contributing 🤝
+
+Pull requests are welcome. Please fork the repo and create a new branch for your changes.
+
+License 📜
+
+This project is open-source under the MIT License.
