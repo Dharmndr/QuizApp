@@ -44,4 +44,5 @@ Pull requests are welcome. Please fork the repo and create a new branch for your
 
 License 📜
 
-This project is open-source under the MIT License.
+This project is open-source under the MIT License
+.
