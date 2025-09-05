@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "Hyper Tool Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "answer": "Hypertext Markup Language"
+  },
+  {
+    "id": 2,
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "id": 3,
+    "question": "Which HTML tag is used to insert a line break?",
+    "options": [
+      "<br>",
+      "<lb>",
+      "<break>",
+      "<newline>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "id": 4,
+    "question": "What is the correct HTML tag for inserting an image?",
+    "options": [
+      "<image>",
+      "<img>",
+      "<src>",
+      "<pic>"
+    ],
+    "answer": "<img>"
+  },
+  {
+    "id": 5,
+    "question": "Which attribute specifies the URL of an image in HTML?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "link"
+    ],
+    "answer": "src"
+  },
+  {
+    "id": 6,
+    "question": "Which HTML element is used for the largest heading?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<heading>",
+      "<head>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "id": 7,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<url>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "id": 8,
+    "question": "Which attribute is used to provide alternative text for an image?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "description"
+    ],
+    "answer": "alt"
+  },
+  {
+    "id": 9,
+    "question": "What does the <title> tag in HTML do?",
+    "options": [
+      "Defines a document title",
+      "Creates a tooltip",
+      "Adds a heading",
+      "Displays metadata"
+    ],
+    "answer": "Defines a document title"
+  },
+  {
+    "id": 10,
+    "question": "Which doctype is correct for HTML5?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<HTML5>",
+      "<!HTML>",
+      "<!DOCTYPE HTML5>"
+    ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "id": 11,
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Central Style Sheets",
+      "Creative Style Syntax",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 12,
+    "question": "Which property in CSS is used to change the text color?",
+    "options": [
+      "color",
+      "font-color",
+      "text-color",
+      "background-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "id": 13,
+    "question": "Which CSS property is used to change the background color?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor",
+      "background-style"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "id": 14,
+    "question": "Which CSS property is used to make text bold?",
+    "options": [
+      "font-weight",
+      "text-bold",
+      "font-style",
+      "weight"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "id": 15,
+    "question": "Which property is used to change the size of text in CSS?",
+    "options": [
+      "font-size",
+      "text-size",
+      "size",
+      "font"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "id": 16,
+    "question": "How do you select an element with the ID 'main' in CSS?",
+    "options": [
+      "#main",
+      ".main",
+      "main",
+      "*main"
+    ],
+    "answer": "#main"
+  },
+  {
+    "id": 17,
+    "question": "Which symbol is used to select classes in CSS?",
+    "options": [
+      ".",
+      "#",
+      "*",
+      "&"
+    ],
+    "answer": "."
+  },
+  {
+    "id": 18,
+    "question": "Which property is used to center text horizontally?",
+    "options": [
+      "text-align",
+      "align-text",
+      "horizontal-align",
+      "center"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "id": 19,
+    "question": "Which CSS property controls the space between lines of text?",
+    "options": [
+      "line-height",
+      "spacing",
+      "letter-spacing",
+      "margin"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "id": 20,
+    "question": "Which property makes a text italic in CSS?",
+    "options": [
+      "font-style",
+      "font-italic",
+      "italic",
+      "text-style"
+    ],
+    "answer": "font-style"
+  },
+  {
+    "id": 21,
+    "question": "Which language runs in a web browser?",
+    "options": [
+      "Java",
+      "C",
+      "Python",
+      "JavaScript"
+    ],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 22,
+    "question": "Which company developed JavaScript?",
+    "options": [
+      "Netscape",
+      "Microsoft",
+      "Google",
+      "Oracle"
+    ],
+    "answer": "Netscape"
+  },
+  {
+    "id": 23,
+    "question": "Inside which HTML element do we put JavaScript?",
+    "options": [
+      "<script>",
+      "<js>",
+      "<javascript>",
+      "<code>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "id": 24,
+    "question": "How do you write 'Hello World' in an alert box?",
+    "options": [
+      "alert('Hello World')",
+      "alertBox('Hello World')",
+      "msg('Hello World')",
+      "print('Hello World')"
+    ],
+    "answer": "alert('Hello World')"
+  },
+  {
+    "id": 25,
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": [
+      "//",
+      "<!--",
+      "/* */",
+      "#"
+    ],
+    "answer": "//"
+  },
+  {
+    "id": 26,
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunc()",
+      "def myFunc()",
+      "create myFunc()",
+      "method myFunc()"
+    ],
+    "answer": "function myFunc()"
+  },
+  {
+    "id": 27,
+    "question": "Which keyword is used to declare variables in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 28,
+    "question": "How do you write an array in JavaScript?",
+    "options": [
+      "let arr = [1,2,3]",
+      "let arr = (1,2,3)",
+      "let arr = {1,2,3}",
+      "let arr = <1,2,3>"
+    ],
+    "answer": "let arr = [1,2,3]"
+  },
+  {
+    "id": 29,
+    "question": "What is the default value of an uninitialized variable?",
+    "options": [
+      "undefined",
+      "null",
+      "0",
+      "false"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 30,
+    "question": "Which method converts JSON data to a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "parse.JSON()",
+      "obj.JSON()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "id": 31,
+    "question": "Which company developed React?",
+    "options": [
+      "Facebook",
+      "Google",
+      "Microsoft",
+      "Amazon"
+    ],
+    "answer": "Facebook"
+  },
+  {
+    "id": 32,
+    "question": "What is the command to create a new React app?",
+    "options": [
+      "npx create-react-app myApp",
+      "npm init react-app",
+      "npm create react-app",
+      "npx react-new myApp"
+    ],
+    "answer": "npx create-react-app myApp"
+  },
+  {
+    "id": 33,
+    "question": "Which hook is used to manage state in React?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useReducer",
+      "useContext"
+    ],
+    "answer": "useState"
+  },
+  {
+    "id": 34,
+    "question": "Which hook is used to perform side effects in React?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useMemo",
+      "useCallback"
+    ],
+    "answer": "useEffect"
+  },
+  {
+    "id": 35,
+    "question": "What is the default port for running a React app?",
+    "options": [
+      "3000",
+      "5000",
+      "8080",
+      "4000"
+    ],
+    "answer": "3000"
+  },
+  {
+    "id": 36,
+    "question": "What is JSX in React?",
+    "options": [
+      "JavaScript XML",
+      "Java Syntax Extension",
+      "JSON XML",
+      "JavaScript Extension"
+    ],
+    "answer": "JavaScript XML"
+  },
+  {
+    "id": 37,
+    "question": "Which function is used to update state in React?",
+    "options": [
+      "setState",
+      "changeState",
+      "updateState",
+      "modifyState"
+    ],
+    "answer": "setState"
+  },
+  {
+    "id": 38,
+    "question": "Which method is used to render React components?",
+    "options": [
+      "ReactDOM.render()",
+      "renderDOM()",
+      "React.render()",
+      "DOMReact()"
+    ],
+    "answer": "ReactDOM.render()"
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of React Router?",
+    "options": [
+      "Navigation between pages",
+      "State management",
+      "Styling components",
+      "Server requests"
+    ],
+    "answer": "Navigation between pages"
+  },
+  {
+    "id": 40,
+    "question": "Which hook is used to fetch data in React?",
+    "options": [
+      "useEffect",
+      "useFetch",
+      "useState",
+      "useData"
+    ],
+    "answer": "useEffect"
+  },
+  {
+    "id": 41,
+    "question": "Which symbol is used for strict equality comparison in JavaScript?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "answer": "==="
+  },
+  {
+    "id": 42,
+    "question": "How do you round 5.7 to the nearest integer in JavaScript?",
+    "options": [
+      "Math.round(5.7)",
+      "Math.floor(5.7)",
+      "Math.ceil(5.7)",
+      "round(5.7)"
+    ],
+    "answer": "Math.round(5.7)"
+  },
+  {
+    "id": 43,
+    "question": "Which operator is used to concatenate strings in JavaScript?",
+    "options": [
+      "+",
+      "&",
+      "*",
+      "concat"
+    ],
+    "answer": "+"
+  },
+  {
+    "id": 44,
+    "question": "How do you convert a string into an integer in JavaScript?",
+    "options": [
+      "parseInt()",
+      "parseFloat()",
+      "Number()",
+      "String()"
+    ],
+    "answer": "parseInt()"
+  },
+  {
+    "id": 45,
+    "question": "Which HTML tag is used to display a table?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<td>",
+      "<tr>"
+    ],
+    "answer": "<table>"
+  },
+  {
+    "id": 46,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "style",
+      "class",
+      "css",
+      "font"
+    ],
+    "answer": "style"
+  },
+  {
+    "id": 47,
+    "question": "Which HTML tag is used to define a list item?",
+    "options": [
+      "<li>",
+      "<ul>",
+      "<ol>",
+      "<item>"
+    ],
+    "answer": "<li>"
+  },
+  {
+    "id": 48,
+    "question": "What is the default position property in CSS?",
+    "options": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed"
+    ],
+    "answer": "static"
+  },
+  {
+    "id": 49,
+    "question": "Which property in CSS is used to hide an element?",
+    "options": [
+      "display: none",
+      "hidden: true",
+      "visibility: hidden",
+      "opacity: 0"
+    ],
+    "answer": "display: none"
+  },
+  {
+    "id": 50,
+    "question": "Which JavaScript method is used to remove the last item of an array?",
+    "options": [
+      "pop()",
+      "push()",
+      "shift()",
+      "splice()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "id": 51,
+    "question": "Which JavaScript method is used to add an item to the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "unshift()",
+      "append()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "id": 52,
+    "question": "Which HTML element is used for emphasized text?",
+    "options": [
+      "<em>",
+      "<strong>",
+      "<b>",
+      "<i>"
+    ],
+    "answer": "<em>"
+  },
+  {
+    "id": 53,
+    "question": "Which JavaScript keyword stops the execution of a loop?",
+    "options": [
+      "break",
+      "continue",
+      "stop",
+      "exit"
+    ],
+    "answer": "break"
+  },
+  {
+    "id": 54,
+    "question": "Which CSS property changes the cursor when hovering over an element?",
+    "options": [
+      "cursor",
+      "hover",
+      "pointer",
+      "mouse"
+    ],
+    "answer": "cursor"
+  },
+  {
+    "id": 55,
+    "question": "Which method is used to get the length of a string in JavaScript?",
+    "options": [
+      "length",
+      "size",
+      "count",
+      "chars"
+    ],
+    "answer": "length"
+  },
+  {
+    "id": 56,
+    "question": "Which CSS property adds shadow to text?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow",
+      "font-shadow"
+    ],
+    "answer": "text-shadow"
+  },
+  {
+    "id": 57,
+    "question": "Which CSS property makes a box circular?",
+    "options": [
+      "border-radius",
+      "shape",
+      "circle",
+      "round"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "id": 58,
+    "question": "Which React hook is used to optimize performance by memoizing values?",
+    "options": [
+      "useMemo",
+      "useEffect",
+      "useState",
+      "useCallback"
+    ],
+    "answer": "useMemo"
+  },
+  {
+    "id": 59,
+    "question": "Which HTML tag is used to play audio?",
+    "options": [
+      "<audio>",
+      "<sound>",
+      "<mp3>",
+      "<media>"
+    ],
+    "answer": "<audio>"
+  },
+  {
+    "id": 60,
+    "question": "Which HTML tag is used to play video?",
+    "options": [
+      "<video>",
+      "<movie>",
+      "<clip>",
+      "<mp4>"
+    ],
+    "answer": "<video>"
+  },
+  {
+    "id": 61,
+    "question": "Which React hook is used to memoize functions?",
+    "options": [
+      "useCallback",
+      "useEffect",
+      "useState",
+      "useMemo"
+    ],
+    "answer": "useCallback"
+  },
+  {
+    "id": 62,
+    "question": "Which method in JavaScript is used to filter array elements?",
+    "options": [
+      "filter()",
+      "map()",
+      "reduce()",
+      "slice()"
+    ],
+    "answer": "filter()"
+  },
+  {
+    "id": 63,
+    "question": "What does the 'this' keyword refer to in JavaScript?",
+    "options": [
+      "Current object",
+      "Window",
+      "Function",
+      "Parent"
+    ],
+    "answer": "Current object"
+  },
+  {
+    "id": 64,
+    "question": "Which JavaScript method converts an object into a JSON string?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "stringify.JSON()",
+      "toJSON()"
+    ],
+    "answer": "JSON.stringify()"
+  },
+  {
+    "id": 65,
+    "question": "Which CSS property controls overflow content?",
+    "options": [
+      "overflow",
+      "display",
+      "content-flow",
+      "wrap"
+    ],
+    "answer": "overflow"
+  },
+  {
+    "id": 66,
+    "question": "Which attribute is used to open a link in a new tab?",
+    "options": [
+      "target='_blank'",
+      "href='_blank'",
+      "window='_blank'",
+      "open='_blank'"
+    ],
+    "answer": "target='_blank'"
+  },
+  {
+    "id": 67,
+    "question": "Which HTML element is used for inline styles?",
+    "options": [
+      "style",
+      "script",
+      "css",
+      "inline"
+    ],
+    "answer": "style"
+  },
+  {
+    "id": 68,
+    "question": "Which function is used to delay execution in JavaScript?",
+    "options": [
+      "setTimeout()",
+      "delay()",
+      "wait()",
+      "pause()"
+    ],
+    "answer": "setTimeout()"
+  },
+  {
+    "id": 69,
+    "question": "Which JavaScript operator is used to check both value and type?",
+    "options": [
+      "===",
+      "==",
+      "!=",
+      "="
+    ],
+    "answer": "==="
+  },
+  {
+    "id": 70,
+    "question": "Which CSS property is used to set the z-axis order of elements?",
+    "options": [
+      "z-index",
+      "stack",
+      "order",
+      "position"
+    ],
+    "answer": "z-index"
+  }
+]
