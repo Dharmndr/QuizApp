@@ -1,52 +1,179 @@
-Quiz App 🎯
+# Quiz App – React + Tailwind CSS
 
-A responsive React + Vite quiz app where users can attempt quizzes, track scores, and view results.
+A modern, responsive Quiz Application built using React, React Router, and Tailwind CSS.
 
-Features ✨
+The app randomly selects questions, includes a countdown timer, tracks high scores using localStorage, and displays a detailed result summary.
 
-🎲 Random 6 non-repeating questions per attempt
+## 🚀 Features
 
-⏳ 30-second timer per question
+- ✅ Randomly selects 6 unique questions
 
-📊 Progress bar to track your progress
+- ⏳ 30-second timer per question
 
-🏆 Save & display highest score using localStorage
+- 📊 Progress bar indicator
 
-📱 Fully responsive mobile-first UI
+- 💾 High score stored using localStorage
 
-Tech Stack 🛠️
+- 🏆 Displays highest score achieved
 
-React (Vite)
+- 📄 Detailed result summary (correct & incorrect answers)
 
-TailwindCSS
+- 🔁 Retry quiz option
 
-React Router
+- 🗑 Clear all stored scores
 
-LocalStorage
+- 🎨 Fully responsive UI with Tailwind CSS
 
-Installation & Setup 💻
-1. Clone the Repository
-   
-git clone  https://github.com/Dharmndr/QuizApp.git
+## 🛠 Tech Stack
 
-cd QuizApp
+- ⚛️ React (Hooks: useState, useEffect)
 
-2. Install Dependencies
-   
+- 🌐 React Router DOM
+
+- 🎨 Tailwind CSS
+
+- 💾 Browser LocalStorage
+
+## 📁 Project Structure
+```
+quiz-app/
+│
+├── src/
+│   ├── components/
+│   │   ├── QuestionCard.jsx
+│   │   └── ResultSummary.jsx
+│   │
+│   ├── pages/
+│   │   ├── QuizPage.jsx
+│   │   └── ResultPage.jsx
+│   │
+│   ├── data/
+│   │   └── questions.json
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── README.md
+```
+## 📦 Installation & Setup
+1️⃣ Clone the repository
+
+```javascript
+ git clone https://github.com/Dharmndr/QuizApp.git
+ cd quiz-app 
+```
+2️⃣ Install dependencies
+```
 npm install
-
-3. Start the Development Server
-   
+```
+3️⃣ Start development server
+```
 npm run dev
+```
+OR (if created using create-react-app):
+```
+npm start
+```
+App will run on:
+```
+http://localhost:3000
+```
+## 📚 How It Works
+🔹 1. Question Selection
+
+- Loads questions from questions.json
+
+- Removes duplicates
+
+- Randomly shuffles and selects 6 questions
+
+🔹 2. Timer Logic
+
+- Each question has a 30-second countdown
+
+- If time runs out → automatically moves to next question
+
+🔹 3. Answer Handling
+
+- User selects one option
+
+- "Next" button enabled only after selecting an answer (or timer ends)
+
+🔹 4. Score Calculation
+```javascript
+const score = questions.reduce(
+  (acc, q, index) => (answers[index] === q.answer ? acc + 1 : acc),
+  0
+);
+```
+🔹 5. High Score Storage
+```javascript
+localStorage.setItem("highScores", JSON.stringify([...prevScores, score]));
+```
+🔹 6. Results Page
+
+Shows:
+
+  - Final score
+
+   - Highest score
+
+   -  Correct & incorrect answers
+
+Option to:
+
+   - Retry quiz
+
+ - Clear all stored scores
+
+## 🎯 Sample Features Demonstrated
+
+- React Hooks (useState, useEffect)
+
+- Routing with React Router
+
+- Conditional Rendering
+
+- Array Methods (map, reduce, filter)
+
+- LocalStorage usage
+
+- Dynamic styling with Tailwind
+
+## 🖥 UI Highlights
+
+- Clean modern card design
+
+- Smooth progress bar animation
+
+- Color-coded results:
+
+  🟢 Green → Correct
+
+  🔴 Red → Incorrect
+
+- Responsive layout
+
+## 🧩 Future Improvements
+
+- Add difficulty levels
+
+- Add category selection
+
+- Add leaderboard system
+
+- Add authentication
+
+- Add backend for storing scores
+
+- Add sound effects
 
 
-App runs on: http://localhost:5173
+## 👨‍💻 Author
 
-Contributing 🤝
+Dharmendra Kumar
 
-Pull requests are welcome. Please fork the repo and create a new branch for your changes.
+## 📄 License
 
-License 📜
-
-This project is open-source under the MIT License
-.
+This project is open-source and available under the MIT License.
